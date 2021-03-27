@@ -1,17 +1,24 @@
 <template>
   <div>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Hello Vue 3.0 + Vite" />
+    <Header></Header>
+    <AppContainer>
+      <router-view />
+    </AppContainer>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import AppContainer from './components/layout/AppContainer.vue';
+import Footer from './components/layout/Footer.vue';
+import Header from './components/layout/Header.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    AppContainer,
+    Footer
   }
 };
 </script>

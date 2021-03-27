@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>{{ msg }}</h1>
+  <div class="test">
+    <h1 class="test__demo">{{ msg }}</h1>
     <button @click="count++">count is: {{ count }}</button>
     <p>Edit <code>components/HelloWorld.vue</code> to test hot module replacement.</p>
   </div>
@@ -22,3 +22,11 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+.test {
+  &__demo {
+    color: red;
+  }
+}
+</style>
