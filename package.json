@@ -8,11 +8,13 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "ant-design-vue": "^2.1.2",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1",
     "vue": "^3.0.4",
-    "vue-router": "4"
+    "vue-router": "^4.0.5",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.4",
